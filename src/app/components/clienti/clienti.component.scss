@@ -1,0 +1,74 @@
+.card{
+  width: 300px;
+  justify-content: space-between;
+}
+
+.container{
+  justify-content: space-evenly;
+}
+
+.bottone1{
+  text-align: center;
+}
+
+/* From uiverse.io */
+#btn1 {
+  width: 175px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+  background: #e62222;
+ }
+
+ button, #btn1 span {
+  transition: 200ms;
+ }
+
+ #btn1 .text {
+  transform: translateX(35px);
+  color: white;
+  font-weight: bold;
+ }
+
+ #btn1 .icon {
+  position: absolute;
+  border-left: 1px solid #c41b1b;
+  transform: translateX(110px);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ #btn1 svg {
+  width: 15px;
+  fill: #eee;
+ }
+
+ #btn1:hover {
+  background: #ff3636;
+ }
+
+ #btn1:hover .text {
+  color: transparent;
+ }
+
+ #btn1:hover .icon {
+  width: 150px;
+  border-left: none;
+  transform: translateX(0);
+ }
+
+ #btn1:focus {
+  outline: none;
+ }
+
+ button:active .icon svg {
+  transform: scale(0.8);
+ }
